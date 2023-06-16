@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./scss/main.css"> 
+    <script defer src="./script.js"></script>
+    <title>🍕FOOD-LIST🍕</title>
+</head>
+<body class="dark-body">
+                    
+<div class="container-alergen">
+      
+        <table style="width:100%">
+            <tr>
+            <th>1</th>
+            <td>Obilniny obsahujúce lepok</td>
+            </tr>
+            <tr>
+            <th>2</th>
+            <td>Kôrovce a výroby z nich</td>
+            </tr>
+            <tr>
+            <th>3</th>
+            <td>Vajcia a výroby z nich</td>
+            </tr>
+            <tr>
+            <th>4</th>
+            <td>Ryba a výrobkz z nich</td>
+            </tr>
+            <tr>
+            <th>5</th>
+            <td>Arašidy a výrobky z nich</td>
+            </tr>
+            <tr>
+            <th>6</th>
+            <td>Sójové zrná a výroky z nich</td>
+            </tr>
+            <tr>
+            <th>7</th>
+            <td>Mlieko a výrobky z nich</td>
+            </tr>
+            <tr>
+            <th>8</th>
+            <td>Orechy</td>
+            </tr>
+            <tr>
+            <th>9</th>
+            <td>Zeler a výrobky z nich</td>
+            </tr>
+            <tr>
+            <th>10</th>
+            <td>Horčica a výrobky z nej</td>
+            </tr>
+            <th>11</th>
+            <td>Sezamové semená a výrobky z nich</td>
+            </tr>
+            <tr>
+            <th>12</th>
+            <td>Oxid siričitý a siričitany</td>
+            </tr>
+            <tr>
+            <th>13</th>
+            <td>Vĺči bôb a výrobky z neho</td>
+            </tr>
+            <tr>
+            <th>14</th>
+            <td>Mäkkýše a výrobky z nich</td>
+            </tr>
+            <tr>
+            <th>15</th>
+            <td>Obilniny obsahujuce lepok</td>
+            </tr>
+            <tr>
+          </table>
+          <i class='bx bx-x close'></i>
+          
+          
+</div>
+<button class="box">
+    <i class='bx bx-question-mark spy'></i> 
+</button> 
+
+
+<div class="general-container">
+    <div class="container-first">       
+        
+        <h1>Výtam vás</h1>
+            <p class="hello-text">
+                Výtajte na mojej stránke ktorá slúži hlavne ako môj projekt
+                snažím sa tu ukázat moje dovednsoti hlavne co zatiaľ viem , v HTML,CSS(na tomto projekte kontkrétne použijem scss),JS.
+                Projekt robil som sám, sem tam daka pomôcka googlom a mojimi poznámkami.
+            </p>
+            <p>
+                Táto stránka ma iba za úlohu aby ukazovala že koľko v meste Hriňovej stojí každá pizza (vo Velvete) keďže nemajú žiadnu stránku
+                tak ja som si vytvoril vlastnú infromačnú pre seba.(Aj keď mi tu ešte toho veľa chýba )
+            </p class="hello-text">
+            <button class="btn-nextPage">
+                Tak poďme na to 
+            </button>
+            
+        
+    </div>
+</div>
+            
+
+<div class="post">
+<header>
+<nav>
+    <ul>
+        <li>
+            <a class='nav-dark' href="pizza_velvet.html">Pizza velvet</a>
+        </li>
+        <li>   
+    <!-- toggle-page night sone-->
+    <button class="one-button">    
+        <i class='bx bx-sun'></i>
+
+    </button>
+    <button class="two-button">
+        <i class='bx bx-moon' ></i>
+    </button>        
+        </li>
+        <li>
+        </li>
+    </ul>
+</nav>
+
+
+        <div class="navigation">
+            <button class="all-menu">All</button>
+            <button class="pizza-menu">Pizza</button>
+            <button class="salat-menu">Šaláty</button>
+            <button class="cestoviny-menu">Cestoviny</button>
+        </div>
+
+
+</header>
+    <div class="search-pizza"> 
+        <input  type="text" id="searchbar" onkeyup="search_pizza()" placeholder="Vyhľadať moju pizzu">
+    </div>
+    
+
+    <div class="data"></div>
+
+</div>
+
+
+</body>
+</html>
