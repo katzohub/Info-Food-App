@@ -17,8 +17,8 @@ and filtering using buttons elements.
 
 ### Zdravím všetkých
 
-Vytvoril som projekt pre moje portfólio, ktorého  má  za úlohou informovať o cenách a alergénoch v našej blízkom podniku,
+Vytvoril som projekt pre moje portfólio, ktorého  má  za úlohou informovať o cenách a alergénoch v našom blízkom podniku,
 Na projekte som pracoval sám a sem-tam som si pomohol googlením alebo mojimi cheat sheetmi.
 Tu ukážem, ako robím denný a nočný režim,
 Ďalej ukážem, ako vyhľadávam pomocou input prvku,
-môj vlastný dizajn a filtrovanie pomocou btton tlačidiel.
+môj vlastný dizajn a filtrovanie pomocou button tlačidiel.
