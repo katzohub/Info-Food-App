@@ -1,0 +1,15 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //outline: 2px solid red;
+}
+
+ @import 'variables';
+ @import 'open_page';
+ @import 'index';
+ @import 'filter';
+ @import 'alergen';
+ @import 'media_queris';
