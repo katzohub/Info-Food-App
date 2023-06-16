@@ -1,0 +1,54 @@
+body{
+    background-color: $bg-color-dark;
+    transition: all 0.3s linear;
+    color: #fff;
+    height: 100vh;
+}
+.dark-body{
+    background-color: $bg-color;
+    color: #000;
+    transition: all 0.3s linear;
+    
+}
+
+.general-container{
+    width: 100vw;
+    min-height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container-first{
+    margin-top: 10px;
+    padding: 2.15em;
+    text-align: center;
+    background-color: $bg-color;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    border: 10px solid $postprimary-color;
+}
+
+.hello-text{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-nextPage{
+    padding: 0.625em;
+    margin-top: 0.9375em;
+    font-size: 1.125em;
+    color: #fff;
+    background-color: $primary-color;
+    border: 0.1875em solid $primary-color;
+    border-radius: 0.9375em;
+    transition: all 0.3s linear;
+}
+.btn-nextPage:hover
+{
+    background-color: $bg-color;
+    cursor: pointer;
+}
