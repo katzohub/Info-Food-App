@@ -1,3 +1,4 @@
+![fotka pre moj projekt](info-food.png) 
 # ENGLISH
 
 ## Info-food
